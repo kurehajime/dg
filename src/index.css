@@ -1,0 +1,23 @@
+body {
+    background-color: #F0F0E0;
+    font-family: sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 60px;
+    user-select: none;
+}
+
+.outbox {
+    width: 400px;
+}
+
+.canv {
+    touch-action: none;
+    filter: drop-shadow(3px 3px 8px #000);
+}
